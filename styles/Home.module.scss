@@ -1,0 +1,37 @@
+.headerContainer {
+  .hero {
+    padding: 80px 70px;
+    height: 93vh;
+    width: 100%;
+    background-color: #f6f6f8;
+    background-position: 0px 0px 0px -400px;
+    background-size: cover;
+    display: flex;
+    .heroText {
+      width: 50%;
+      line-height: 35px;
+
+      .name {
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+        color: #e1567c;
+        border-bottom: #e1567c 1px solid;
+        font-size: 18px;
+      }
+      p {
+        color: #362d59;
+        font-size: 35px;
+        margin-top: 10px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+
+        span {
+          font-size: 30px;
+        }
+      }
+    }
+    .heroImage {
+      width: 50%;
+    }
+  }
+}
