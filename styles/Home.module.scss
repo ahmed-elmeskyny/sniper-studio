@@ -1,37 +1,68 @@
 .headerContainer {
   .hero {
-    padding: 80px 70px;
-    height: 93vh;
+    // padding: 80px 70px;
+    height: 90vh;
     width: 100%;
-    background-color: #f6f6f8;
+    // background-color: black;
     background-position: 0px 0px 0px -400px;
     background-size: cover;
     display: flex;
+
     .heroText {
-      width: 50%;
+      width: 35%;
       line-height: 35px;
+      background-color: black;
+      padding: 9% 8%;
 
       .name {
         font-family: "Rubik", sans-serif;
         font-weight: 300;
         color: #e1567c;
-        border-bottom: #e1567c 1px solid;
-        font-size: 18px;
+        // border-bottom: #e1567c 1px solid;
+        font-size: 17px;
       }
-      p {
-        color: #362d59;
-        font-size: 35px;
-        margin-top: 10px;
-        font-family: "Rubik", sans-serif;
-        font-weight: 500;
 
-        span {
-          font-size: 30px;
+      .slogan {
+        margin-top: 20px;
+        width: 220%;
+        p {
+          color: white;
+          font-size: 35px;
+          font-family: "Rubik", sans-serif;
+          font-weight: 500;
+          position: relative;
+          z-index: 100;
+          margin-left: 30px;
+          margin-top: -15px;
+
+          span {
+            font-size: 30px;
+          }
+        }
+        .img {
+          margin-left: 94%;
+        }
+      }
+      .social {
+        display: flex;
+        justify-content: flex-end;
+        width: 200%;
+        position: relative;
+        z-index: 1000;
+        margin-left: 21%;
+        .icon {
+          color: white;
+          font-size: 22px;
+          margin: 1%;
+          cursor: pointer;
         }
       }
     }
     .heroImage {
-      width: 50%;
+      background-image: url("./../public/header.jpg");
+      width: 100%;
+      background-size: cover;
+      background-position: -10px 0px;
     }
   }
 }
